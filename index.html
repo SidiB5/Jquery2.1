@@ -10,9 +10,11 @@
     <button type="button" name="button" id="clickMe" >Clique-moi !</button>
   </form>
   <script>
-    $('#clickMe').on('click', () =>{
-      alert('Voici mon premier message en utilisant Jquery !')
-    })
+    $(document).ready(() => {
+      $('#clickMe').on('click', () =>{
+        alert('Voici mon premier message en utilisant Jquery !')
+      });
+    });
   </script>
 </body>
 </html>
